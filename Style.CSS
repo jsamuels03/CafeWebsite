@@ -1,0 +1,24 @@
+
+.header img {
+  
+    height: 500px;
+    width: 100%;
+    background-image: url("coffee.jpg");
+    background-size:contain;
+    background-repeat: auto ;
+    opacity:1;
+
+}
+
+.name {
+    position:absolute;
+    height:800px;
+}
+.nav {
+    background-color:#a50000;
+}
+
+
+
+
+
