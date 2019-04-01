@@ -1,24 +1,44 @@
+.header {
 
-.header img {
-  
     height: 500px;
     width: 100%;
     background-image: url("coffee.jpg");
-    background-size:contain;
-    background-repeat: auto ;
-    opacity:1;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 1;
+
 
 }
 
-.name {
-    position:absolute;
-    height:800px;
+.header .name {
+    text-align: center;
+    vertical-align: middle;
+    color: #D2B48C;
+    font-size:100px;
+    font-family:cursive ;
+
+
 }
+
 .nav {
-    background-color:#a50000;
+    background-color: #a50000;
 }
 
 
 
 
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.services {
+    position: relative;
+    text-align: center;
+}
+
+.Team img{
+    width:200px;
+    Height:200px;
+}
