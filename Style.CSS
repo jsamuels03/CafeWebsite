@@ -1,23 +1,22 @@
-.header {
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
-    height: 500px;
+.header {
+    height: 600px;
     width: 100%;
-    background-image: url("coffee.jpg");
+    background-image: url("cafe.jpg");
     background-size: cover;
     background-repeat:no-repeat;
     opacity: 1;
-
 
 }
 
 .header .name {
     text-align: center;
     vertical-align: middle;
-    color: #D2B48C;
+    color: #FEFEFE;
     font-size:100px;
-    font-family:cursive ;
-
-
 }
 
 .nav {
@@ -41,4 +40,68 @@
 .Team img{
     width:200px;
     Height:200px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0 !important;
+    z-index:1;
+}
+
+.contact span {
+    width:30px;
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #fa0511;
+    color: #fff;
+    z-index:1;
+}
+
+.contact .btn:hover {
+    
+    background-color: #778899 !important;
+    color: #fff !important;
+}
+
+.contact i{
+    text-align:center;
+    padding:5px;
+}
+    
+.fab{ 
+    padding:20px;
+}
+
+.carousel-item img{
+    height:200px;
+}
+.trusted #reviewer{ 
+ border-radius: 40%;
+ width: 100%;
+}
+
+.trusted p{
+    padding:15px;
+}
+
+.trusted i{
+    font-size:55px;
+    padding:15px;
+}
+
+.customer{
+
+    width:100%;
+    background-size:cover;
+    border-radius:45%;
+}
+
+.customer p{
+    margin-top:10px;
 }
