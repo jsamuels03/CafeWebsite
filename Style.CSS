@@ -23,6 +23,9 @@ body {
     background-color: #a50000;
 }
 
+.grapes {
+    color: #e5d3a0 ;
+}
 
 
 
@@ -106,7 +109,8 @@ body {
     width: 50%;
     height: 600px;
     background-size: 100% 100%;
-    background: rgba(0,0,0,0.7);
+
+    
 }
 
 .carousel-caption p {
@@ -114,10 +118,9 @@ body {
     vertical-align: middle;
     color: #FEFEFE;
     font-size: 15px;
-   
 }
 .delivery{
-   
+  
 }
 
 
@@ -137,8 +140,8 @@ body {
 }
 
 .customer {
-
-    width: 89%;
+    height:50%;
+    width: 79%;
     background-size: cover;
     border-radius: 45%;
 }
@@ -154,7 +157,7 @@ body {
 
 .customerwish {
     width:68% ;
-    height:68%;
+    height:50%;
     border-radius:60px;
 }
 
@@ -163,3 +166,17 @@ body {
     height: 60px;
     border-radius:60px;
 }
+
+.social {
+   float: right !important;
+   color:white;
+}
+
+.Croissant img {
+    
+}
+
+
+
+
+
