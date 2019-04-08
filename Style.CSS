@@ -1,14 +1,15 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
+footer{
+    font-family: 'Poppins',sans-serif;
+}
 .header {
     height: 600px;
     width: 100%;
-    background-image: url("cafe.jpg");
+    background-image: url("cafe.filter.25.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1;
 
 }
 
@@ -17,6 +18,9 @@ body {
     vertical-align: middle;
     color: #FEFEFE;
     font-size: 100px;
+    position: relative;
+    top: 0px;
+    font-weight: 600;
 }
 
 .nav {
@@ -38,36 +42,40 @@ body {
 .services {
     position: relative;
     text-align: center;
+    
 }
 
+
+
 .Team img {
-    width: 200px;
-    Height: 200px;
-    border-radius: 20%;
-    vertical-align: middle;
-    padding: 10px;
-    margin-top: 90px;
+    float:right;
+    width: 150px;
+    Height: 150px;
+    border-radius: 10%;
+
     margin-left: auto;
-    margin-right: auto;
-    position: center;
+    margin-right:auto;
+
 
 }
 
 .Team h1 {
-    font-size: 30px;
+    font-size: 40px;
+    text-align:center;
 }
 
 .Team h2 {
     font-size: 25px;
+    
 }
 
 .Team h3 {
     font-size: 15px;
+   
 }
 
-.Team p {
-    font-size: 13px;
-}
+    
+
 
 .contact .form-control {
 
@@ -106,7 +114,7 @@ body {
 }
 
 .carousel-item img {
-    width: 50%;
+    width: 30%;
     height: 600px;
     background-size: 100% 100%;
 
@@ -117,13 +125,14 @@ body {
     text-align: center;
     vertical-align: middle;
     color: #FEFEFE;
-    font-size: 15px;
+    font-size: 20px;
 }
-.delivery{
-  
+.carousel-caption {
+    top:50px;
 }
-
-
+.carousel-caption h1{
+     font-size: 52px;
+ }
 
 .trusted #reviewer {
     border-radius: 40%;
@@ -161,22 +170,53 @@ body {
     border-radius:60px;
 }
 
-.croissant {
+.card img{
     width: 60px;
     height: 60px;
-    border-radius:60px;
+    border-radius:50px;
 }
 
 .social {
-   float: right !important;
    color:white;
+   position: relative;
+   left: 620px;
+   top:-10px;
+   display: inline;
 }
 
-.Croissant img {
-    
+.location iframe{
+    position: absolute;
+    left:0px;
+    top: -10px;
 }
 
+.footer button{
+    background-color:brown;
+    color:white;
+}
 
+.footer p{
+    color: white;
+    text-align: center;
 
+}
+.footer i{
+    color: white;
+    position:relative;
+    left:80px;
+}
 
-
+.footer spam{
+    display: inline;
+}
+.footer h7{
+    font-size: 13px;
+}
+.navbar ul{
+    position: absolute;
+    top: 10px;
+}
+.navbar i{
+    position:relative;
+    left:5px;
+}
