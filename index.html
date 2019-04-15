@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link rel="stylesheet" href="./Style.CSS" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
@@ -32,7 +33,7 @@
                     <a class="nav-link" href="#B">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#C">About Us</a>
+                    <a class="nav-link" href="#C">Our Team</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#D">Reviews</a>
@@ -78,7 +79,7 @@
                     <div class="container">
                         <h1>Location</h1>
                         <p>Bella Frappe 73 Pacific St. Forest Hills, NY 11375</p>
-                        <p>Monday-Friday 8AM-9PM</p>
+                        <p>Monday-Friday 8AM-5PM</p>
 
                     </div>
                 </div>
@@ -95,11 +96,12 @@
 
     <hr>
     <!--Menu Section-->
-    <section class="menu container">
-        <h1 id="A">Menu</h1>
+    <section class="Menu">
+        <!--id="a"-->
+        <h1>Menu</h1>
         <hr>
-        <div class="row">
-            <div class="card-deck Menu">
+        <div class="rowmenu">
+            <div class="card-deck">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Drinks</h5>
@@ -240,8 +242,6 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <hr>
@@ -287,7 +287,7 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Free Wifi</h1>
                             <p>We provides an open wireless network for consumers</p>
-                            <p>The network name is Bella-Fappa, and there is no password required</p>
+                            <p>The network name is Bella-Frappe, and there is no password required</p>
                             <p>Please be aware of the inherent risks of public wireless networks.</p>
                         </div>
                     </div>
@@ -322,19 +322,19 @@
                 <div class="row">
                     <i class="fas fa-quote-left"></i>
                     <p>
-                        As soon as I stepped foot into the cafe I was extremely impressed with the interior design. Even better the customer service is way better than any of the other cafe restaurants I have been to. I highly reccommend anyone who is just trying to have a
-                        laid back time, and enjoy some coffee to head to Bella-Frappe." -Jessica
+                        As soon as I stepped foot into the cafe I was extremely impressed with the interior design. Even better the customer service is way better than any of the other cafe restaurants I have been to. I highly reccommend anyone who is just trying to have a laid
+                        back time, and enjoy some coffee to head to Bella-Frappe." -Jessica
                     </p>
 
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="consumer2.jpeg" class="customerdream"></img>
+                        <img src="consumer2.jpeg" class="customer"></img>
                         <p>"Great coffee! ..." -Vanessa</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="consumer3.jpeg" class="customerwish"></img>
-                        <p> "Amazing enviornment ..." -Robert</p>
+                        <img src="consumer3.jpeg" class="customer"></img>
+                        <p> "Amazing environment ..." -Robert</p>
                     </div>
                     <div class="col-md-4">
                         <img src="consumer4.jpeg" class="customer"></img>
@@ -358,54 +358,50 @@
         <hr>
 
         <div class="row">
-            <div class="col-md-3">
-                <img src="./face1.jpeg"></img>
+            <div class="col-md-6">
+                <img src="./face1.jpeg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2> Chris Hemsworth</h2>
+                        <h3>Founder</h3>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3">
 
-                <h2> Chris Hemsworth</h2>
-                <h3>Founder</h3>
-
-            </div>
-
-
-            <div class="col-md-3">
-                <img src="./face2.jpg"></img>
-
-            </div>
-            <div class="col-md-3">
-                <h2> Justin Bieber</h2>
-                <h3>Co-Founder</h3>
-
+            <div class="col-md-6">
+                <img src="./face2.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2> Justin Bieber</h2>
+                        <h3>Founder</h3>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <hr id="secline">
-
         <div class="row">
-            <div class="col-md-3">
-                <img src="./face3.jpg"></img>
-
+            <div class="col-md-6">
+                <img src="./face3.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2> Cara Delevine </h2>
+                        <h3>Customer Serivce</h3>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3">
-                <h2> Cara Delevine </h2>
-                <h3>Customer Serivce</h3>
 
+            <div class="col-md-6">
+                <img src="./face4.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2> Shawn Mendez </h2>
+                        <h3>Advertising</h3>
+                    </div>
+                </div>
             </div>
 
-
-            <div class="col-md-3">
-                <img src="./face4.png"></img>
-
-            </div>
-            <div class="col-md-3">
-                <h2> Shawn Mendez </h2>
-                <h3>Advertising</h3>
-
-            </div>
         </div>
-
-
+        </div>
+        <hr id="secline">
 
     </section>
 

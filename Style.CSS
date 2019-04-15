@@ -48,9 +48,11 @@ footer{
 
 
 .Team img {
-    float:right;
-    width: 150px;
-    Height: 150px;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border-radius: 10%;
     padding:10px;
     margin-left: auto;
@@ -154,10 +156,12 @@ footer{
 }
 
 .customer {
-    height:50%;
-    width: 79%;
+    height:100px;
+    width: 100px;
     background-size: cover;
+    background-position: 50% 50%;
     border-radius: 45%;
+    object-fit: cover;
 }
 
 .customer p {
@@ -180,7 +184,15 @@ footer{
     height: 100px;
     border-radius:50px;
 }
-
+.Menu{
+    text-align: center;
+}
+.rowmenu{
+    text-align: center;
+    padding-left: 100px; 
+    padding-right: 100px;
+ 
+}
 .social {
    color:white;
    position: relative;
@@ -243,5 +255,52 @@ footer{
     color:white;
 }
 .card-deck{
-    float:middle;
+    display:;
 }
+
+.Team-container {
+  position: relative;
+  width: 50%;
+}
+
+
+.image {
+  display: inline-block;
+  width: 255px;
+  height: 255px;
+}
+
+.overlay {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+  
+
+  
+}
+
+
+.container:hover .overlay1 {
+    height:100px;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
