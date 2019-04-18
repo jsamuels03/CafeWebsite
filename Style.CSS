@@ -1,9 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-footer{
-    font-family: 'Poppins',sans-serif;
+
+footer {
+    font-family: 'Poppins', sans-serif;
 }
+
 .header {
     height: 600px;
     width: 100%;
@@ -21,6 +23,7 @@ footer{
     position: relative;
     top: 0px;
     font-weight: 600;
+    text-shadow: 5px 5px black;
 }
 
 .nav {
@@ -28,7 +31,7 @@ footer{
 }
 
 .grapes {
-    color: #e5d3a0 ;
+    color: #e5d3a0;
 }
 
 
@@ -42,7 +45,7 @@ footer{
 .services {
     position: relative;
     text-align: center;
-    
+
 }
 
 
@@ -52,31 +55,30 @@ footer{
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 85%;
     border-radius: 10%;
-    padding:10px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 
 
 }
 
 .Team h1 {
     font-size: 40px;
-    text-align:center;
+    text-align: center;
 }
 
 .Team h2 {
     font-size: 25px;
-    
+
 }
 
 .Team h3 {
     font-size: 15px;
-   
+
 }
 
-    
+
 
 
 .contact .form-control {
@@ -120,7 +122,7 @@ footer{
     height: 600px;
     background-size: 100% 100%;
 
-    
+
 }
 
 .carousel-caption p {
@@ -130,20 +132,22 @@ footer{
     font-size: 20px;
     padding-top: 8px;
 }
+
 .carousel-caption {
-    top:50px;
+    top: 50px;
 }
-.carousel-caption h1{
-     font-size: 52px;
- }
+
+.carousel-caption h1 {
+    font-size: 52px;
+}
 
 .trusted #reviewer {
     border-radius: 40%;
     width: 100%;
 }
 
-.trusted h2{
-    text-align:center;
+.trusted h2 {
+    text-align: center;
 }
 
 .trusted p {
@@ -156,7 +160,7 @@ footer{
 }
 
 .customer {
-    height:100px;
+    height: 100px;
     width: 100px;
     background-size: cover;
     background-position: 50% 50%;
@@ -169,138 +173,204 @@ footer{
 }
 
 .customerdream {
-    width:58%;
-    border-radius:60px;
+    width: 58%;
+    border-radius: 60px;
 }
 
 .customerwish {
-    width:68% ;
-    height:50%;
-    border-radius:60px;
+    width: 68%;
+    height: 50%;
+    border-radius: 60px;
 }
 
-.card img{
+.card {
+    border-radius: 25px
+}
+
+.card img {
     width: 100px;
     height: 100px;
-    border-radius:50px;
-}
-.Menu{
-    text-align: center;
-}
-.rowmenu{
-    text-align: center;
-    padding-left: 100px; 
-    padding-right: 100px;
- 
-}
-.social {
-   color:white;
-   position: relative;
-   left: 650px;
-   top: -10px;
-   display: inline;
-   
+    border-radius: 50px;
 }
 
-.location iframe{
+.Menu {
+    text-align: center;
+}
+
+.rowmenu {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.social {
+    color: white;
+    position: relative;
+    left: 650px;
+    top: -10px;
+    display: inline;
+
+}
+
+.location iframe {
     position: absolute;
-    left:0px;
+    left: 0px;
     top: -8px;
 }
 
-.footer button{
-    background-color:brown;
-    color:white;
+.footer button {
+    background-color: brown;
+    color: white;
 }
 
-.footer p{
+.footer p {
     color: white;
     text-align: center;
 
 }
-.footer i{
+
+.footer i {
     color: white;
-    position:relative;
-    left:80px;
+    position: relative;
+    left: 80px;
 }
 
-.footer spam{
+.footer spam {
     display: inline;
 }
-.footer h7{
+
+.footer h7 {
     font-size: 13px;
 }
-.navbar ul{
+
+.navbar ul {
     position: absolute;
     top: 10px;
 }
-.navbar i{
-    position:relative;
-    left:5px;
+
+.navbar i {
+    position: relative;
+    left: 5px;
 }
-.location{
+
+.location {
     margin-top: 40px;
 }
+
 .menu {
     text-align: center;
 }
-.social a{
-    color:white;
+
+.rowmenu img {
+    animation-name: fadeInUp;
+    animation-duration: 4s;
+
 }
 
-#secline{
-    width:50%;   
+.rowmenu p {
+    animation-name: fadeInUp;
+    animation-duration: 4s;
 }
-.navbar-nav a{
-    color:white;
+
+
+.social a {
+    color: white;
 }
-.card-deck{
-    display:;
+
+#secline {
+    width: 50%;
 }
+
+.navbar-nav a {
+    color: white;
+}
+
+
+.card-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+
+}
+
+
+
 
 .Team-container {
-  position: relative;
-  width: 50%;
+    position: relative;
+    width: 50%;
 }
 
 
 .image {
-  display: inline-block;
-  width: 255px;
-  height: 255px;
+    display: inline-block;
+    width: 255px;
+    height: 255px;
 }
+
+/*.custom-coffee-page {*/
+
+/*    background-image: */
+
+/*}*/
 
 .overlay {
-  position: absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 50%;
-  height: 0;
-  transition: .5s ease;
-  
-
-  
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 76%;
+    height: 0;
+    opacity: 0.8;
+    transition: .8s ease;
+    border-radius: 10%;
 }
 
 
-.container:hover .overlay1 {
-    height:100px;
+.chad:hover .overlay {
+    height: 100%;
 }
+
+.jackie:hover .overlay {
+    height: 100%;
+}
+
+.cara:hover .overlay {
+    height: 100%;
+}
+
+.shawn:hover .overlay {
+    height: 100%;
+}
+
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
+#cup {
+    text-align: center;
+    display: center;
+}
+
+
+.Menu {
+    background-color: #e6f2ff;
+
+}
+
+.top-menu {
+    background-color: White;
+}
