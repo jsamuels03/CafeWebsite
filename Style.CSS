@@ -57,8 +57,7 @@ footer {
     margin-right: auto;
     width: 85%;
     border-radius: 10%;
-    margin-left: auto;
-    margin-right: auto;
+   
 
 
 }
@@ -137,7 +136,7 @@ footer {
     top: 50px;
 }
 
-.carousel-caption h1 {
+.carousel-caption h1{
     font-size: 52px;
 }
 
@@ -207,10 +206,14 @@ footer {
 .social {
     color: white;
     position: relative;
-    left: 650px;
+    left: 500px;
     top: -10px;
     display: inline;
 
+}
+.social a {
+    color: white;
+    float: left;
 }
 
 .location iframe {
@@ -274,9 +277,6 @@ footer {
 }
 
 
-.social a {
-    color: white;
-}
 
 #secline {
     width: 50%;
@@ -360,17 +360,19 @@ footer {
     text-align: center;
 }
 
-#cup {
-    text-align: center;
-    display: center;
+.coffee {
+     position: relative;
 }
 
 
 .Menu {
-    background-color: #e6f2ff;
+    background-color: #f5f3eb;
 
 }
 
 .top-menu {
     background-color: White;
 }
+
+
+
